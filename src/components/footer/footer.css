@@ -1,0 +1,22 @@
+footer{
+    background-color: gold;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.logo{
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 10rem;
+  
+}
+
+@media screen and (max-width:600px) {
+    .logo{
+        margin-bottom:2.6rem
+    }
+}
