@@ -18,7 +18,7 @@ const Footer = () => {
       
       <br></br>
       </div>
-      <a href={Resume} target='_blank' rel='noopener noreferrer' id='but'>
+      <a href={Resume} target='_blank'  id='but'>
         Click here for Resume
       </a>
     </footer>
