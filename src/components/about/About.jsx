@@ -1,8 +1,9 @@
 import React from 'react'
 import "./about.css"
-import Ajmal1_c from "../../assets/ajmal3_c.jpeg"
+// import Ajmal1_c from "../../assets/ajmal3_c.jpeg"
 import {MdOutlineInsertDriveFile} from "react-icons/md"
-
+// import { SlBadge } from "react-icons/sl";
+import { FaLanguage } from "react-icons/fa";
 import {DiYeoman} from "react-icons/di"
 import {FaSchool} from "react-icons/fa"
 const About = () => {
@@ -12,39 +13,70 @@ const About = () => {
       <h1>About me!</h1>
       <div className='container about_container'>
         <div className='about_me'>
-          <div className='about_me_img'>
-            <img src={Ajmal1_c} alt="" />
-          </div>
+          
+          {/* <div className='about_me_img'>
+            <img src={Ajmal1_c} alt=""  />
+          </div> */}
+          <div className='about_cardss'>
+          <article className='about_card'>
+          
+              <h3 >Certifications </h3>
+            {/* <MdOutlineInsertDriveFile className='about_icon'/> */}
+              {/* <div> */}
+              <ul className='UL' >
+              <li id='neww'>&#x2022;Arduino Step by Step: Getting started</li>
+              <li id='neww'>&#x2022;Ethics in Engineering Practice</li>
+              <li id='neww'>&#x2022;Enhancing Soft Skills and Personality</li>
+              <li id='neww'>&#x2022;Introduction to Machine Learning</li>
+              <li id='neww'>&#x2022;Basics of Computer Networking</li>
+              {/* </div> */}
+              </ul>
+            </article>
+          <article className='about_card'>
+              <h3 >Events </h3>
+            {/* <MdOutlineInsertDriveFile className='about_icon'/> */}
+              {/* <div> */}
+              <ul className='UL' >
+              <li id='neww'>&#x2022;Smart India Hackathon (2022)</li>
+              <li id='neww'>&#x2022;Tech Innovation (2023)</li>
+              <li id='neww'>&#x2022;BIT Prakyuti (2023)</li>
+              <li id='neww'>&#x2022;YESIST (2022)</li>
+              <li id='neww'>&#x2022;Project Expo (2023)</li>
+              <li id='neww'>&#x2022;IOT Workshop (2023)</li>
+              {/* </div> */}
+              </ul>
+            </article>
+            </div>
         </div>
-
+        
         <div className='about_content'>
           <div id='about_cards'>
-          
             <article className='about_card'>
             <MdOutlineInsertDriveFile className='about_icon'/>
-              <h5> Projects </h5>
-              <small>3+ completed</small>
+              <h2> Projects </h2>
+              <large>6+ completed</large>
             </article>
-            
             <br></br>
-            
             <article className='about_card'>
             <FaSchool className='about_icon'/>
-              <h5>Course</h5>
-              <small>Electronics & Communication Engineering</small>
+              <h2>Course</h2>
+              <medium>Electronics & Communication Engineering</medium>
             </article>
-          
         <br></br>
           
             <article className='about_card'>
             <DiYeoman className='about_icon'/>
-              <h5> Expert in </h5>
-              <small>Python</small>
+              <h2> Expert in </h2>
+              <medium>Java & ReactJS</medium>
             </article>  
-            
-            {/* <p> 2008, Ronaldo's number 7 Manchester United shirt was the best-selling Premier League sports product.[548] In 2015, Ronaldo's number 7 Real Madrid shirt was the second best-selling worldwide, after Messi's number 10 Barcelona shirt.[549] In 2018, within 24 hours of his number 7 Juventus shirt being released, over 520,000 had been sold, with $62.4 million generated in one day.[550]
-Ronaldo opened a fashion boutique under the name CR7 (his initials and shirt number) on the island of Madeira in 2006 and opened a second in Lisbon in 2008.[551] In partnership with Scandinavian manufacturer JBS Textile Group and the New York fashion designer Richard Chai, Ronaldo co-designed a range of underwear and sock line, released in November 2013.[552] He expanded his CR7 fashion brand by launching a line of premium shirts and shoes in July 2014.[553][554] In September 2015, Ronaldo released his own fragrance, "Legacy", in a partnership with Eden Parfums.[555]</p> */}
           <br></br>
+            <article className='about_card'>
+            <FaLanguage className='about_icon'/>
+              <h2> Languages </h2>
+              <medium>English & Tamil</medium>
+            </article>  
+            <br></br>
+            
           {/* <a href='#contact'> Contact </a> */}
           </div>
         </div>
@@ -54,12 +86,3 @@ Ronaldo opened a fashion boutique under the name CR7 (his initials and shirt num
 }
 
 export default About
-
-
-
-
-
-
-
-
-

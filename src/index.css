@@ -12,6 +12,7 @@
 
 :root{
     --color-bg:#1f1f38;
+    /* --color-bg:red; */
     --color-bg-varient:#2c2c6c;
     --color-primary:#4db5ff;
     --color-primary-varient:rgba(77,181,255,0.4);
@@ -50,9 +51,13 @@ body{
 }
 h1,h2,h3,h4,h5{
     font-weight: 500;
+    
+}
+h5{
+    font-size: 1.5rem;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 section{
     margin-top: 8rem;
@@ -132,7 +137,6 @@ img{
         margin-top: 2rem;
     }
 }
-
 
 
 

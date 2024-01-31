@@ -25,6 +25,7 @@ header{
     position: absolute;
     left:0;
     bottom: 3rem;
+    font-size: 2rem;
 }
 
 
@@ -40,16 +41,16 @@ header{
 .me{
     
     /* background: linear-gradient(black,transparent); */
-    width: 22rem;
-    height: 44rem;
-    /* position: absolute; */
+    width: 30rem;
+    height: 50rem;
+
     position: absolute;
     
-    left: calc(50% - 11rem);
-    margin-top: -5rem;
-    /* border-radius: 12rem 12rem 0 0; */
+    left: calc(50% - 15rem);
+    margin-top: -7rem;
+  
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem;
+    padding: 4rem 2rem 1.5rem;
     
 }
 #cont{
@@ -86,3 +87,65 @@ header{
 .btn{
     width: 10rem;
 }
+
+#user{
+    animation: glitch 1s linear infinite;
+  }
+  
+  @keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+  
+  #user:before,
+  #user:after{
+    content: attr(title);
+    position: absolute;
+    left: 0;
+  }
+  
+  #user:before{
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+  
+  @keyframes glitchTop{
+    2%,64%{
+      transform: translate(2px,-2px);
+    }
+    4%,60%{
+      transform: translate(-2px,2px);
+    }
+    62%{
+      transform: translate(13px,-1px) skew(-13deg); 
+    }
+  }
+  
+  #user:after{
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+  
+  @keyframes glitchBotom{
+    2%,64%{
+      transform: translate(-2px,0);
+    }
+    4%,60%{
+      transform: translate(-2px,0);
+    }
+    62%{
+      transform: translate(-22px,5px) skew(21deg); 
+    }
+  }
+  /*  */
+
+  

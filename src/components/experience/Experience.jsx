@@ -15,15 +15,15 @@ const Experience = () => {
           <article className='experience_details'>
               <GoVerified className='experience_details-icon'/> 
               <div>
-              <h4>HTML</h4>
+              <h4 className='hi4'>HTML/CSS</h4>
               <small className='text-light'>Experienced</small>
               </div>
           </article>
 
           <article className='experience_details'>
-              <GoVerified className='experience_details-icons'/>
+              <GoVerified className='experience_details-icon'/>
               <div className='right'>
-              <h4 >CSS</h4>
+              <h4 className='hi4'>ReactJS</h4>
               <small className='text-light'>Experienced</small>
               </div>
           </article>
@@ -31,7 +31,7 @@ const Experience = () => {
           <article className='experience_details'>
               <GoVerified className='experience_details-icon'/>
               <div>
-              <h4>JavaScript</h4>
+              <h4 className='hi4'>JavaScript</h4>
               <small className='text-light'>Basics</small>
               </div>
           </article>
@@ -39,7 +39,7 @@ const Experience = () => {
           <article className='experience_details'>
               <GoVerified className='experience_details-icon'/>
               <div className='right'>
-              <h4>Material Ui</h4>
+              <h4 className='hi4'>BootStrap</h4>
               <small className='text-light'>Experienced</small>
               </div>
           </article>
@@ -54,28 +54,35 @@ const Experience = () => {
           <article className='experience_details'>
               <GoVerified className='experience_details-icon'/> 
               <div>
-              <h4>Python</h4>
+              <h4 className='hi4' >Java & Python</h4>
               <small className='text-light'>Experienced</small>
               </div>
           </article>
-          <article className='experience_details'>
+          {/* <article className='experience_details'>
               <GoVerified className='experience_details-icon'/> 
               <div className='right'>
-              <h4>C&C++</h4>
+              <h4 className='hi4'>Java</h4>
               <small className='text-light'>Experienced</small>
               </div>
-          </article>
+          </article> */}
           <article className='experience_details'>
               <GoVerified className='experience_details-icon'/> 
               <div>
-              <h4>SQL</h4>
+              <h4 className='hi4'>SQL</h4>
               <small className='text-light'>Basics</small>
               </div>
           </article>
           <article className='experience_details'>
               <GoVerified className='experience_details-icon'/> 
               <div>
-              <h4 className='right'>Arduino</h4>
+              <h4 className='hi4'>Arduino</h4>
+              <small className='text-light'>Basics</small>
+              </div>
+          </article>
+          <article className='experience_details'>
+              <GoVerified className='experience_details-icon'/> 
+              <div>
+              <h4 className='hi4'>SpringBoot</h4>
               <small className='text-light'>Basics</small>
               </div>
           </article>

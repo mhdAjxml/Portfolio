@@ -28,6 +28,7 @@
     align-items: center;
     text-align: center;
     column-gap: 5px;
+    font-size:1.2rem;
     
 }
  .new{
@@ -36,6 +37,7 @@
 
 h2{
     text-align: center;
+    font-size: 2rem;
 }
  @media screen and (max-width:1024px){
     .portfolio_container{

@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
    
+   
  
 }
 
@@ -23,6 +24,10 @@ h3{
     /* margin-top: 75%; */
     padding-top: 2rem;
     color:var(--color-primary);
+    font-size: 2rem;
+}
+.hi4{
+    font-size: 1.5rem;
 }
 .experience_container > div:hover{
     background: transparent;
@@ -41,12 +46,13 @@ h3{
 }
 
 .experience_details-icon{
-    margin-top: 6px;
+    margin-top: 13px;
 }
 
 @media screen and (max-width:1024px)  {
     .experience_container{
         grid-template-columns: 1fr;
+        
 
     }
     .experience_container >div{

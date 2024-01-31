@@ -12,7 +12,12 @@ footer{
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 10rem;
-  
+    padding: 30px;
+}
+
+#but{
+    color: black;
+    font-size: large;
 }
 
 @media screen and (max-width:600px) {
