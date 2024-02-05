@@ -22,3 +22,7 @@ export default function App() {
     </div>
   )
 }
+
+
+//npm run build
+//npm run deploy
