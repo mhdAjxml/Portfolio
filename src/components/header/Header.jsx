@@ -23,7 +23,7 @@ const Header = () => {
 
     setTimeout(() => {
       handletimeout();
-    }, 1000);
+    }, 3000);
   })
   return (
     <>
