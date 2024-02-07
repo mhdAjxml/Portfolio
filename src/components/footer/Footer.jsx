@@ -14,7 +14,7 @@ const Footer = () => {
       <a className='logo' href='https://twitter.com/ajmalado_7' target='_blank'><BsTwitter/></a>
       <a className='logo' href='https://github.com/Ajmal-07' target='_blank'><AiOutlineGithub/></a>
       <a className='logo' href='https://www.instagram.com/mhd.__.ajmal/' target='_blank'><GrInstagram/></a>
-      <a className='logo' href='https://www.facebook.com/mohamed.ajmal.73997861?mibextid=hu50Ix' target='_blank'><FaFacebook/></a>
+      {/* <a className='logo' href='https://www.facebook.com/mohamed.ajmal.73997861?mibextid=hu50Ix' target='_blank'><FaFacebook/></a> */}
       {/* <br></br> */}
       </div>
       <a href={Resume} target='_blank'  id='but'>

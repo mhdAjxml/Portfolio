@@ -22,6 +22,9 @@ footer{
 
 @media screen and (max-width:600px) {
     .logo{
-        margin-bottom:2.6rem
+
+        color: black;
+
+        /* margin-bottom:2.6rem */
     }
 }

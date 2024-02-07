@@ -8,7 +8,6 @@ const Experience = () => {
       <h1>My Experience</h1>
 
       <div className='container experience_container'>
-      
         <div className='experience_frontend'>
         <h3>FRONTEND</h3>
         <div className='experience_content'>
@@ -54,7 +53,14 @@ const Experience = () => {
           <article className='experience_details'>
               <GoVerified className='experience_details-icon'/> 
               <div>
-              <h4 className='hi4' >Java & Python</h4>
+              <h4 className='hi4' >Python</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+          </article>
+          <article className='experience_details'>
+              <GoVerified className='experience_details-icon'/> 
+              <div>
+              <h4 className='hi4' >Java</h4>
               <small className='text-light'>Experienced</small>
               </div>
           </article>
